@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="keepActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1像素保护" />
+
+    <Button
+        android:onClick="foregroundService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="前台服务保活" />
+
+    <Button
+        android:onClick="stickyService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sticky拉活" />
+
+    <Button
+        android:onClick="accountService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账户拉活" />
+
+    <Button
+        android:onClick="jobService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job拉活" />
+
+    <Button
+        android:onClick="dualDaemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="双进程+job守护" />
+
+    <Button
+        android:onClick="workManager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="workManager拉活" />
+
+</LinearLayout>
